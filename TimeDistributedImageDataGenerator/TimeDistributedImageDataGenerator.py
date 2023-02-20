@@ -1,6 +1,6 @@
 import tensorflow as tf
 from keras.preprocessing.image import ImageDataGenerator
-from keras.preprocessing.image import array_to_img, img_to_array, load_img
+from keras.utils import array_to_img, img_to_array, load_img
 from keras.preprocessing.image import DirectoryIterator,DataFrameIterator
 import numpy as np
 
